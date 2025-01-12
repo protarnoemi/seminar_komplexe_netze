@@ -84,11 +84,9 @@ def calculate_percentiles(layer):
         print(f"{i * 5}%: {t}")
     return thresholds
 
-    # TODO: cut the data according to what we will agree upon
 
 
 if __name__ == '__main__':
-    # create_data_by_layers('your file path here')
 
     layers = []
     for i in range(6):
